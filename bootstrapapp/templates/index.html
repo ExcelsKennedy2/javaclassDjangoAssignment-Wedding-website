@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>settle</title>
+      <title>Home | Settle</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -48,7 +48,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="{% url 'my_home %}"><img src="{% static 'images/logo.png' %}" alt="#" /></a>
+                              <a href="{% url 'my_home' %}"><img src="{% static 'images/logo.png' %}" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -74,13 +74,13 @@
                            <div class="carousel-item active">
                               <div class="carousel-caption d-md-block cuplle">
                                  <h3 data-animation="animated bounceInLeft">
-                                    Our Love Story
+                                    Love Story
                                  </h3>
                                  <h3 data-animation="animated bounceInLeft">
-                                    A Love to Remember
+                                    Wedding Day
                                  </h3>
                                  <h3 data-animation="animated bounceInLeft">
-                                    Forever and Always
+                                    Forever & Always
                                  </h3>
                                  <button class="btn btn-primary  read_more whitebg" data-animation="animated bounceInLeft">Contact Us</button>
                               </div>
@@ -89,13 +89,13 @@
                            <div class="carousel-item">
                               <div class="carousel-caption d-md-block cuplle">
                                  <h3 data-animation="animated bounceInLeft">
-                                    Love
+                                    Love Story
                                  </h3>
                                  <h3 data-animation="animated bounceInLeft">
-                                    Wedding Couple
+                                    Special Day
                                  </h3>
                                  <h3 data-animation="animated bounceInLeft">
-                                    Groom Woman
+                                    Tying The Knot
                                  </h3>
                                  <button class="btn btn-primary  read_more whitebg" data-animation="animated bounceInLeft">Contact Us</button>
                               </div>
@@ -110,7 +110,7 @@
                                     Wedding Couple
                                  </h3>
                                  <h3 data-animation="animated bounceInLeft">
-                                    Groom Woman
+                                    Happily Ever After
                                  </h3>
                                  <button class="btn btn-primary  read_more whitebg" data-animation="animated bounceInLeft">Contact Us</button>
                               </div>
@@ -331,7 +331,8 @@
                   </div>
                </div>
                <div class="col-md-6">
-                  <form id="request" class="main_form">
+                  <form method="post" action="https://api.web3forms.com/submit" id="request" class="main_form">
+                     <input type="hidden" name="access_key" value="a746d8ed-30f0-4595-9a38-683584007e7d">
                      <div class="row">
                         <div class="col-md-6 ">
                            <label>Name</label>
@@ -339,7 +340,7 @@
                         </div>
                         <div class="col-md-6">
                            <label>Phone Number</label>
-                           <input class="contactus" placeholder="" type="number" name="Phone Number">
+                           <input class="contactus" placeholder="" type="tel" name="Phone Number">
                         </div>
                         <div class="col-md-12">
                            <label>Email</label>
@@ -366,7 +367,8 @@
                <div class="row border_bo1 ">
                   <div class="col-md-4">
                      <a class="logof" href="{% url 'my_home' %}"><img src="{% static 'images/logo.png' %}" alt="#"/></a>
-                     <form class="form_subscri">
+                     <form method="post" action="https://api.web3forms.com/submit" class="form_subscri">
+                        <input type="hidden" name="access_key" value="a746d8ed-30f0-4595-9a38-683584007e7d">
                         <div class="row">
                            <div class="col-md-12">
                               <h3>Subscribe Now</h3>
@@ -397,11 +399,11 @@
                      <div class="infoma">
                         <h3>Helpful Links</h3>
                         <ul>
-                           <li>There are many </li>
-                           <li>variations of pas</li>
-                           <li>sages of Lorem  </li>
-                           <li>psum available,  </li>
-                           <li>but the majority  </li>
+                           <li>Home</li>
+                           <li>About us</li>
+                           <li>Contact us</li>
+                           <li>Gallery</li>
+                           <li>Couple</li>
                         </ul>
                      </div>
                   </div>
@@ -423,7 +425,7 @@
                         <ul class="conta">
                            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Locations 
                            </li>
-                           <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>+71 12345678901</li>
+                           <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>+254 12345678901</li>
                            <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)"> demo@gmail.com</a></li>
                         </ul>
                         <ul class="social_icon">

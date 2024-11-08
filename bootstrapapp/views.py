@@ -11,3 +11,5 @@ def gallery(request):
     return render(request, 'gallery.html')
 def couple(request):
     return render(request, 'couple.html')
+def base(request):
+    return render(request, 'base.html')
